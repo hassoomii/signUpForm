@@ -19,19 +19,21 @@
             <div class="inputSenior">
                 <div class="inputJunior">
                     <p class="inputText">First</p>
-                    <input class="inputs" type="text">
+                    <input class="inputs" id="firstInput" type="text">
                     <p class="inputText">Last</p>
-                    <input class="inputs" type="text">
+                    <input class="inputs" id="lastInput" type="text">
                     <p class="inputText">Cell number</p>
-                    <input class="inputs" type="text">
+                    <input class="inputs" id="numberInput" type="text">
                 </div>
                 <div class="inputJunior">
                     <p class="inputText">Email</p>
-                    <input class="inputs" type="text">
-                    <p class="inputText">Password</p>
-                    <input class="inputs" type="text">
-                    <p class="inputText">Confirm password</p>
-                    <input class="inputs" type="text">
+                    <input class="inputs" id="emailInput" type="text">
+                    <form>
+                        <p class="inputText">Password</p>
+                        <input class="inputs" id="passInput" type="password" autocomplete="new-password">
+                        <p class="inputText">Confirm password</p>
+                        <input class="inputs" id="confPassInput" type="password" autocomplete="new-password">
+                    </form>
                 </div>
             </div>
             <button id="submitButton">Submit info</button>
